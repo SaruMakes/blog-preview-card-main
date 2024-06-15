@@ -54,7 +54,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Initial thoughts
 
-Looking at the Figma design file, I'm first of all seeing one main component, the blog preview card. Inside it, I'm envisioning perhaps three main containers: one for the image, one for the text content (with multiple nested containers within) and one for the "footer" with the userimage and name.
+Looking at the Figma design file, I'm first of all seeing one main component, the blog preview card. Inside it, I'm envisioning perhaps three main containers: one for the image, one for the text content (with multiple nested containers within) and one for the "footer" with the userimage and name. I might use flexbox, but I'll have to see what I end up using, as I make my way through the coding.
 
 I'll be trying to build this using a Mobile-first workflow, which I will read up on before starting on the coding itself. Judging from the design files, there will not be a massive difference between the mobile and desktop versions. 
 
@@ -73,6 +73,10 @@ The design specifies that there will need to be an active state, when you hover 
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+LEARNED:
+CSS variables - find examples (used it for colors)
+Mobile-first 
 
 To see how you can add code snippets, see below:
 

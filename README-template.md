@@ -74,6 +74,10 @@ The design specifies that there will need to be an active state, when you hover 
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
+LEARNED:
+CSS variables - find examples (used it for colors)
+Mobile-first workflow
+
 To see how you can add code snippets, see below:
 
 ```html
