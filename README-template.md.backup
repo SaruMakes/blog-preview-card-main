@@ -54,7 +54,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Initial thoughts
 
-Looking at the Figma design file, I'm first of all seeing one main component, the blog preview card. Inside it, I'm envisioning perhaps three main containers: one for the image, one for the text content (with multiple nested containers within) and one for the "footer" with the userimage and name. I might use flexbox, but I'll have to see what I end up using, as I make my way through the coding.
+Looking at the Figma design file, I'm first of all seeing one main component, the blog preview card. Inside it, I'm envisioning perhaps three main containers: one for the image, one for the text content (with multiple nested containers within) and one for the "footer" with the userimage and name.
 
 I'll be trying to build this using a Mobile-first workflow, which I will read up on before starting on the coding itself. Judging from the design files, there will not be a massive difference between the mobile and desktop versions. 
 
