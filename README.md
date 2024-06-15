@@ -1,93 +1,164 @@
-# Frontend Mentor - Blog preview card
+# Frontend Mentor - Blog preview card solution
 
-![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Foreword](#foreword)
+- [Project Overview](#project-overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Foreword
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+I'm a very new and inexperienced front-end developer - hell, it feels wild to even call myself that already - who is trying to learn as much as possible from each project I take on. In order to organise my thoughts, and to try to make my approach as systematic as possible, I try to keep a journal of what I'm doing along the way, to take time to stop and review what I've done and what I'll be doing next.
 
-## The challenge
+I'm unfamiliar with the usual manner of writing README's like this, so the overall style and tone might be different from what more experienced readers might expect. Since this is as much a journal to myself, as it is a description for you as a reader, you might notice that my language will at times be quite conversational. You might also see me writing things that might be entirely obvious or completely wrong. 
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+This is all part of the process for me, and you, my dear reader, are simply offered the chance to get a glimpse into my thoughts on this entire project.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Project Overview
 
-Your users should be able to:
+### The challenge
+
+Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![](./Screenshot-Frontend-Mentor-Blog-preview-card.png)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Solution URL: [Frontendmentor.io](https://your-solution-url.com)
+- Live Site URL: [Github.io](https://sarumakes.github.io/blog-preview-card-main/)
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## My process
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+### Initial thoughts
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+Looking at the Figma design file, I'm first of all seeing one main component, the blog preview card. Inside it, I'm envisioning perhaps three main containers: one for the image, one for the text content (with multiple nested containers within) and one for the "footer" with the userimage and name. I might use flexbox, but I'll have to see what I end up using, as I make my way through the coding.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+I'll be trying to build this using a Mobile-first workflow, which I will read up on before starting on the coding itself. Judging from the design files, there will not be a massive difference between the mobile and desktop versions. 
 
-## Building your project
+The design specifies that there will need to be an active state, when you hover over the blog title, which will be a very interesting challenge. I have never created a component like this before, so I will be needing to study how to this. At first glance, I can see that the active state needs to change color of the headline, as well as having the entire component seem as if it is lifting off of the background, with the shadow moving further "away". Perhaps this will require some sort of animation.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### Built with
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+- Semantic HTML5 markup (or attempted to anyway)
+- CSS custom properties
+- Flexbox
+- CSS variables
+- Mobile-first workflow
 
-## Deploying your project
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+### What I learned
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+While this challenge helped strengthen my skills in HTML and CSS, I also learned many new things. Here are some examples:
 
-## Create a custom `README.md`
+#### CSS Variables
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+As I was studying some of the concepts I needed to know for the project, I came across CSS variables. I learned just a tiny fraction of how powerful and useful they can be. In the case of my project, I learned how to use them to declare main design colors once, and then reuse said variables again and again throughout the project. 
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+The cool thing is, if you weren't aware already, that you can use it to change the color in all places where you used that color variable, by simply changing the initial variable declaration. Imagine that you chose a particular green color for certain backgrounds throughout your project, but later on you realise that it's just not the right shade of green. Instead of having to go through every single element to change the color, you can simply change the color that's assigned to the original variable declaration, and then it will automatically apply the new shade of green to all the areas you were using the old shade of green.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+I find this incredibly useful and I hope you will too. This is how I did it in my project:
 
-## Submitting your solution
+``` 
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+```
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+This applies the variable to the entire site, so that you can use the colors everywhere. It is also possible to set variables that apply only to specific elements, but I haven't explored this option further. It is the ```:root``` portion specifically which applies the variables to the entire site.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+In the example above, I then declared ```--[variable name]``` followed by the value I want the variable to refer to. Simply replace ```[variable name]``` with whatever name you decide to name your variable. 
 
-## Sharing your solution
+To use the variable, you then simply declare it instead of the color (or other property/value) that you want, by writing ```var(--[variable name])```. This is what it looks like in action:
 
-There are multiple places you can share your solution:
+```
+body {
+    background-color: var(--yellow);   
+```
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+So, I'm using the variable to refer to the color chosen earlier, which I can then change to any other color after the fact, should I so choose, without having to go through and change the color in every single instance I used it previously.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+#### Mobile-First workflow
 
-## Got feedback for us?
+While I am still very new to this. I learned more about Mobile-First workflows, and how it differs from responsive design. As I understand it, a big part of what makes it different, is that Mobile-First - as the name suggests - focuses on developing a website/an app for mobile devices first, before then turning towards adjusting the design for desktop devices.
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+The reasoning is that with a regular responsive design workflow, the mobile version can end up seeming like more of an afterthought. You work your way down through the device widths, and perhaps just make changes to the layout so that the desktop design sorta fits within the mobile device width. 
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+With Mobile-First, we're turning this idea on its head, and instead focus on creating the best possible experience for mobile users first. We focus on useability, speed/performance, etc. to ensure that mobile users get the best or at least just as good of an experience with the site/app as any desktop user would. Afterwards we then expand upon our design and make changes to how the same content is shown to desktop users.
 
-**Have fun building!** 🚀
+In practise, for this simple project, it meant that I wrote the entire site for mobile devices first, and then created @media queries for larger screen widths.
+
+
+#### Transitions, transforms and hover/active
+
+In order to achieve the design specs with varying shadows, and a hover effect for the headline, I studied transitions, transforms and hover/active states. I found it to be a very interesting topic, which I really look forward to studying more, and using in future projects.
+
+What I did for this project was to give the main preview-card container a hover effect, where I both increase the distance of the box-shadow, as well as slightly translating (moving) the card in the opposite direction. The intent is to give the impression that the card is lifting off of the background a bit as you hover over it. I imagine it might look quite interesting on a page with many other similar preview cards.
+
+My code looks like this:
+
+```
+.preview-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20.4375rem;
+    height: auto;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    background-color: var(--white);
+    border: 1px solid var(--black); /*I decided to use pixels, as I don't want the border to scale*/
+    border-radius: 1.25rem;
+    box-shadow: 0.4rem 0.4rem 0 var(--black);
+    transition: box-shadow 250ms ease-in-out, 
+                transform 250ms ease-in-out;
+}
+
+.preview-card:hover {
+    box-shadow: 0.8rem 0.8rem 0 var(--black);
+    transform: translate(-0.2rem, -0.2rem);
+}
+
+```
+
+I had initially added the transition (the thing that does the animation) to the .preview-card:hover, but realised that it caused the card to instantly snap back to the original look, as soon as I no longer hovered a cursor over the element. By applying it to the main element instead, it now smoothly repeats the animation when you don't hover your cursor over it.
+
+There's a whole field of science (sorta) dedicated to the art of doing these types of animations, but for now I opted for a simple ease-in-out animation for the project.
+
+
+### Continued development
+
+I'm definitely looking forward to learning more about CSS variables and transitions, as they just seem supremely fun to me. I really enjoyed playing around with and learning about those concepts. 
+
+I've learned a bit about the ```clamp``` function as well, when researching ways to change font sizes without using @media queries. However, it seems that the function has some limitations, when it comes to allowing the user to increase the font sizes in the browser, as the function effectively caps the maximum font size. As such, I opted to stick with media queries for this challenge.I would like to explore this topic more, and get some experience testing this concept though.
+
+### Useful resources
+
+- [CSS transforms](https://www.joshwcomeau.com/css/transforms/) - Josh's very informative and well-written guide to CSS transforms (and a whole host of other great articles) was a great help to me. I highly recommend you check out his blog.
+- [MDN Docs - Custom CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - This is a great source of information on how to work with CSS variables/custom CSS properties.
+
+## Author
+
+- Website - [SaruMakes](https://sarumakes.github.io)
+- Frontend Mentor - [@SaruMakes](https://www.frontendmentor.io/profile/SaruMakes)
