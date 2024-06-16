@@ -114,12 +114,12 @@ main a {
     text-decoration: none;
 }
 
-main a h2:hover {
+main a h1:hover {
     color: var(--yellow);
     cursor: url("./assets/images/handcursor.svg"), pointer;
 }
 
-main h2 {
+main h1 {
     font-size: 1.25rem;
     font-weight: 800;
     line-height: 150%;
@@ -128,7 +128,7 @@ main h2 {
 }
 
 @media screen and (min-width: 650px) {
-    main h2 {
+    main h1 {
         font-size: 1.5rem;
     }
 }
@@ -137,6 +137,7 @@ main .text-body {
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 150%;
+    margin-bottom: 0.75rem;
 }
 
 @media screen and (min-width: 650px) {
@@ -145,19 +146,20 @@ main .text-body {
     }
 }
 
-footer {
+main .author-bar {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 0.75rem;
 }
 
-footer img {
+main .author-bar img {
     height: 2rem;
     width: 2rem;
 }
 
-footer .author {
+main .author-bar .author {
     font-size: 0.875rem;
     font-weight: 800;
     line-height: 150%;
@@ -165,14 +167,16 @@ footer .author {
 
 /*Attribution Section*/
 
-body .attribution { 
-    font-size: 0.6875rem;
-    font-weight: 700;
-    text-align: center;
+footer {
     position: absolute;
-    bottom: 0rem;
+    bottom: 0;
+    z-index: -1;
 }
 
-body .attribution a {
+footer .attribution { 
+    font-size: 0.6875rem;
+    font-weight: 700;
+}
+footer .attribution a {
     color: hsl(228, 45%, 44%); 
 }
