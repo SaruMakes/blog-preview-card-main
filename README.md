@@ -62,8 +62,6 @@ The design specifies that there will need to be an active state, when you hover 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
 While this challenge helped strengthen my skills in HTML and CSS, I also learned many new things. Here are some examples:
 
 #### CSS Variables
